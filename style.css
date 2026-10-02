@@ -577,7 +577,7 @@ body.page-home{
 .page-home .bio-block{
   display: grid;
   align-items: stretch;
-  grid-template-columns: 1.7fr 1FR;
+  grid-template-columns: 2fr 1FR;
   gap:30px;
   margin-top:30px;
 }
@@ -639,6 +639,7 @@ body.page-home{
   height:100%;
   object-fit:cover;
   aspect-ratio:4/5;
+  opacity: 0.8;
 }
 .page-home .opening-actions{
   display:flex;
